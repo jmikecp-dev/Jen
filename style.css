@@ -54,3 +54,46 @@ input[type="password"] {
   border: 1px solid #aaa;
   margin-top: 10px;
 }
+
+/* Loading screen styles */
+.loading-screen {
+  text-align: center;
+  margin-top: 100px;
+  background-color: #f7d7d3; /* Pink background */
+  padding: 50px 0;
+}
+
+.loading-text {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000000; /* Black text */
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.loading-bar-container {
+  width: 400px;
+  height: 15px;
+  background: rgba(255,255,255,0.3);
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.loading-bar-fill {
+  width: 0%;
+  height: 100%;
+  background: #f06292; /* bright pink fill */
+  border-radius: 10px;
+  transition: width 0.05s linear;
+}
+
+.loading-percent {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
